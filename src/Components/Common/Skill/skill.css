@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill {
+    background-color: #070d1b;
+    padding: 90px 5%;
+
+    .logoSkill {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        p {
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #353535;
+            letter-spacing: 4px;
+            font-weight: bold;
+            color: #FFE800;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin-bottom: 20px;
+        }
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        .child {
+            margin-top: 15px;
+
+            h2 {
+                font-size: 36px;
+                font-weight: bolder;
+                color: #fdfeff;
+                margin: 0 0 10px;
+                line-height: 1.2em;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-family: Inter, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.6em;
+                color: #a9adb8;
+                opacity: 0.7;
+            }
+
+        }
+
+        .child:nth-child(2) {
+            padding: 0 50px;
+
+            .txt {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+
+                h3 {
+                    clear: both;
+                    color: #fdfeff;
+                    padding: 0;
+                    margin: 0 0 5px;
+                    font-weight: 700;
+                    line-height: 1.2em;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    color: #fec544;
+                    font-weight: 400;
+                }
+            }
+
+            hr {
+                border: 1px solid #fec544;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skill {
+        .box {
+            grid-template-columns: repeat(1, 1fr) !important;
+            .child:nth-child(2){
+                padding: 0;
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .skill {
+        .box {
+            grid-template-columns: repeat(1, 1fr) !important;
+            .child:nth-child(2){
+                padding: 0;
+            }
+        }
+    }
+}
