@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.56c68d1f.css",
+    "main.js": "/portfolio-react/static/js/main.da0061b7.js",
+    "static/js/453.1b6cbde4.chunk.js": "/portfolio-react/static/js/453.1b6cbde4.chunk.js",
+    "static/media/Shailesh_Prajapati_Resume.pdf": "/portfolio-react/static/media/Shailesh_Prajapati_Resume.a39892fb8c4aaac10c2f.pdf",
+    "static/media/Screenshot (15).png": "/portfolio-react/static/media/Screenshot (15).161e6fcabf90768016b0.png",
+    "static/media/hero-bg.jpg": "/portfolio-react/static/media/hero-bg.a294b60e21c02117dd85.jpg",
+    "static/media/main.png": "/portfolio-react/static/media/main.29698e885c941575ae6f.png",
+    "static/media/project.jpg": "/portfolio-react/static/media/project.1447c26c1d20dfbf4484.jpg",
+    "static/media/frontendDevloper.png": "/portfolio-react/static/media/frontendDevloper.20fd013c1f0e06accc41.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.56c68d1f.css.map": "/portfolio-react/static/css/main.56c68d1f.css.map",
+    "main.da0061b7.js.map": "/portfolio-react/static/js/main.da0061b7.js.map",
+    "453.1b6cbde4.chunk.js.map": "/portfolio-react/static/js/453.1b6cbde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56c68d1f.css",
+    "static/js/main.da0061b7.js"
+  ]
+}
